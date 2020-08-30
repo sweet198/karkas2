@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каркасные дома</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="page-header">
+    <a class="page-header__logo logo" href="index.html">
+      <img class="logo__img" alt="Iamdom - строительство загородных домов под ключ" src="img/logo-i3.jpg">
+    </a>
+    <ul class="page-header__contacts-list contacts-list">
+      <li class="contacts-list__item">
+        <a class="contacts-list__link contacts-list__link--tel" href="tel:+79117031903">
+          +7 (911) 703-19-03
+        </a>
+        <a class="contacts-list__link contacts-list__link--mail" href="mailto:sweet198@mail.ru">
+          sweet198@mail.ru
+        </a>
+      </li>
+      <li class="contacts-list__item">
+        <a class="contacts-list__link button button--call" href="#">
+          Заказать звонок
+        </a>
+      </li>
+    </ul>
+    <nav class="page-header__nav main-nav">
+      <button class="main-nav__toggle button button--menu-open" type="button">Открыть меню</button>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item">
+          <a class="site-list__link" href="projects.html">Проекты</a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="reviews.html">Построенные дома</a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="prices.html">Цены</a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="contract.html">Образец договора</a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="reviews.html">Отзывы</a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="reviews.html">О компании</a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="contacts.html">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="page-header__social social__list">
+      <li class="social__item">
+        <a class="social__link social__link--vkontakte" href="#" aria-label="Мы в Вконтакте">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+            <path d="M393 566c-135 0-208-143-276-285-10-21 6-23 16-23l81-1c12 0 17 9 20 15 13 31 66 142 92 129 18-9 15-107 4-122-7-9-20-12-26-13-5-1 3-11 13-16 18-9 87-9 111-3 28 7 19 32 19 95 0 20-4 50 11 58 24 12 81-101 91-131 3-8 9-11 19-11h85c20 0 27 1 30 8 5 12-9 40-44 87-57 77-65 70-17 114 46 42 55 63 57 66 14 28-11 34-21 34h-76c-9 0-21 0-38-11-29-19-55-70-76-64-17 5-20 34-21 53-1 16-10 21-20 21h-34z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--instagram" href="#" aria-label="Мы в Инстаграме">
+          <svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+            <path d="M150 400c0-119 0-166 42-208s88-42 208-42 166 0 208 42 42 89 42 208 0 166-42 208-88 42-208 42-166 0-208-42-42-89-42-208zm455 0c0-114 0-148-29-176-29-29-62-29-176-29s-148 0-176 29c-29 29-29 62-29 176s0 148 29 176c29 29 62 29 176 29s148 0 176-29c29-29 29-62 29-176zM400 272a128 128 0 1 1 0 256 128 128 0 0 1 0-256zm0 211c46 0 83-37 83-83s-37-83-83-83-83 37-83 83 37 83 83 83zm163-216c0 16-13 30-30 30-16 0-30-14-30-30 0-17 14-30 30-30 17 0 30 13 30 30z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--facebook" href="#" aria-label="Мы в Фейсбуке">
+          <svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+            <path d="M445 643h-90V419h-75v-87h75v-64q0-55 32-86 30-29 80-29 28 0 67 3v78h-47q-42 0-42 38v60h86l-11 87h-75v224z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--youtube" href="#" aria-label="Мы в youtube">
+          <svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+            <path d="M400 224c144 0 201 2 224 25 17 17 26 52.125 26 151s-9 134-26 151c-23 23-80 25-224 25s-201-2-224-25c-17-17-26-52.125-26-151s9-134 26-151c23-23 80-25 224-25zm-52 100v141l135-70z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </header>
+  <main class="main-page">
+    <h1 class="main-page__tytle visually-hidden">Каркасные дома</h1>
+    <section class="main-page__section slider-section">
+      <h2 class="visually-hidden">Слайдер-Карусель</h2>
+      <div class="slider-section__slider">
+        <div class="slider-section___slide">
+          <img class="slider-section__slide-photo" src="img/project1.jpg" alt="">
+        </div>
+        <div class="slider-section___slide">
+          <img class="slider-section__slide-photo" src="img/project2.jpg" alt="">
+        </div>
+        <div class="slider-section___slide">
+          <img class="slider-section__slide-photo" src="img/project3.jpg" alt="">
+        </div>
+         <div class="slider-section___slide">
+          <img class="slider-section__slide-photo" src="img/project4.jpg" alt="">
+        </div>
+         <div class="slider-section___slide">
+          <img class="slider-section__slide-photo" src="img/project5.jpg" alt="">
+        </div>
+         <div class="slider-section___slide">
+          <img class="slider-section__slide-photo" src="img/project6.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="main-page__section description-section">
+      <h2 class="description-section__title">
+        Немного о нас
+      </h2>
+        <p class="description-section__paragraph">
+          Строим бани и дома «под ключ», «под усадку» и по каркасной технологии. Недорогие типовые проекты на любой кошелек и индивидуальные проекты — любая площадь, размер, планировка.
+        </p>
+        <p class="description-section__paragraph">
+          Работаем с 2004 года. Сейчас у нас 40 бригад, 136 мастеров, свое производство, сметный, проектный и консультационный отделы. Свои машины для доставки.
+        </p>
+        <p class="description-section__paragraph">
+          Наша готовность сделать любой индивидуальный проект помогает людям каждый день воплощать свои мечты о счастливой жизни. Понимание этого мотивирует нас работать с полной самоотдачей и чувствовать ценность нашей работы.
+        </p>
+        <p class="description-section__paragraph">
+          Строим в Москве и Московской области, в Санкт-Петербурге и Ленинградской области. Приедем в любую точку европейской части России.
+        </p>
+        <p class="description-section__paragraph">
+          Оставьте заявку в форме ниже, и наш менеджер свяжется с Вами в ближайшее время
+        </p>
+        <a class="description-section__button button button--ask" href="#">
+          Задать вопрос
+        </a>
+      </section>
+    <section class="main-page__section project-section">
+      <h2 class="project-section__title">Каталог проектов</h2>
+      <ul class="project-section__list">
+        <li class="project-section__item">
+          <figure class="project-section__card goods-card">
+            <figcaption class="goods-card__title">Проект №1</figcaption>
+            <a class="goods-card__link" href="#">
+              <img class="goods-card__img" src="img/project1.jpg" alt="">
+              <span class="goods-card__footage">100 м<sup>2</sup></span>
+              <span class="goods-card__size">9x9 м</span>
+              <span class="goods-card__price">500000 руб.</span>
+            </a>
+          </figure>
+        </li>
+        <li class="project-section__item">
+          <figure class="project-section__card goods-card">
+            <figcaption class="goods-card__title">Проект №2</figcaption>
+            <a class="goods-card__link" href="#">
+              <img class="goods-card__img" src="img/project2.jpg" alt="">
+              <span class="goods-card__footage">150 м<sup>2</sup></span>
+              <span class="goods-card__size">9x9 м</span>
+              <span class="goods-card__price">700000 руб.</span>
+            </a>
+          </figure>
+        </li>
+        <li class="project-section__item">
+          <figure class="project-section__card goods-card">
+            <figcaption class="goods-card__title">Проект №3</figcaption>
+            <a class="goods-card__link" href="#">
+              <img class="goods-card__img" src="img/project3.jpg" alt="">
+              <span class="goods-card__footage">175 м<sup>2</sup></span>
+              <span class="goods-card__size">9x9 м</span>
+              <span class="goods-card__price">900000 руб.</span>
+            </a>
+          </figure>
+        </li>
+        <li class="project-section__item">
+          <figure class="project-section__card goods-card">
+            <figcaption class="goods-card__title">Проект №4</figcaption>
+            <a class="goods-card__link" href="#">
+              <img class="goods-card__img" src="img/project4.jpg" alt="">
+              <span class="goods-card__footage">200 м<sup>2</sup></span>
+              <span class="goods-card__size">9x9 м</span>
+              <span class="goods-card__price">1200000 руб.</span>
+            </a>
+          </figure>
+        </li>
+        <li class="project-section__item">
+          <figure class="project-section__card goods-card">
+            <figcaption class="goods-card__title">Проект №5</figcaption>
+            <a class="goods-card__link" href="#">
+              <img class="goods-card__img" src="img/project5.jpg" alt="">
+              <span class="goods-card__footage">225 м<sup>2</sup></span>
+              <span class="goods-card__size">9x9 м</span>
+              <span class="goods-card__price">1500000 руб.</span>
+            </a>
+          </figure>
+        </li>
+        <li class="project-section__item">
+          <figure class="project-section__card goods-card">
+            <figcaption class="goods-card__title">Проект №6</figcaption>
+            <a class="goods-card__link" href="#">
+              <img class="goods-card__img" src="img/project6.jpg" alt="">
+              <span class="goods-card__footage">250 м<sup>2</sup></span>
+              <span class="goods-card__size">9x9 м</span>
+              <span class="goods-card__price">1750000 руб.</span>
+            </a>
+          </figure>
+        </li>
+      </ul>
+       <a class="project-section__link button button--project" href="">
+        Все проекты
+      </a>
+    </section>
+    <section class="main-page__section advantages-section">
+      <h2 class="advantages-section__title">Почему выбирают нас:</h2>
+      <ul class="advantages-section__list">
+        <li class="advantages-section__item">
+        <h3 class="advantages-section__item-title advantages-section__item-title--speed">Скорость</h3>
+          <p class="advantages-section__item-description">
+            Более 450 раз мы дарили своим клиентам радость от исполнения мечты.
+          </p>
+        </li>
+        <li class="advantages-section__item">
+          <h3 class="advantages-section__item-title advantages-section__item-title--choice">Выбор!</h3>
+          <p class="advantages-section__item-description">
+            Строительство по типовым и индивидуальным проектам. Различные варианты комплектаций.
+          </p>
+        </li>
+        <li class="advantages-section__item">
+          <h3 class="advantages-section__item-title advantages-section__item-title--guarantee">Время года</h3>
+          <p class="advantages-section__item-description">
+            Мы даем гарантию - десять лет на построенные нами жилые объекты.
+          </p>
+        </li>
+        <li class="advantages-section__item">
+          <h3 class="advantages-section__item-title advantages-section__item-title--season">География!</h3>
+          <p class="advantages-section__item-description">
+            Ведём строительство по Ленинградской обл.
+          </p>
+        </li>
+        <li class="advantages-section__item">
+          <h3 class="advantages-section__item-title advantages-section__item-title--experience">Опыт!</h3>
+          <p class="advantages-section__item-description">
+            Только профессиональные строители
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="main-page__section built-section">
+      <h2 class="built-section__title">Построенные дома</h2>
+      <ul class="built-section__list">
+        <li class="built-section__item">
+          <figure class="built-section__card built-card">
+            <figcaption class="built-card__title">Каркасный дом</figcaption>
+            <a class="built-card__link" href="#">
+              <img class="built-card__img" src="img/project1.jpg" alt="">
+              <span class="built-card__footage">100 м<sup>2</sup></span>
+              <span class="built-card__size">9x9 м</span>
+              <span class="built-card__address">Агалатово</span>
+            </a>
+          </figure>
+        </li>
+        <li class="built-section__item">
+          <figure class="built-section__card built-card">
+            <figcaption class="built-card__title">Каркасный дом</figcaption>
+            <a class="built-card__link" href="#">
+              <img class="built-card__img" src="img/project2.jpg" alt="">
+              <span class="built-card__footage">150 м<sup>2</sup></span>
+              <span class="built-card__size">9x9 м</span>
+              <span class="built-card__address">Агалатово</span>
+            </a>
+          </figure>
+        </li>
+        <li class="built-section__item">
+          <figure class="built-section__card built-card">
+            <figcaption class="built-card__title">Каркасный дом</figcaption>
+            <a class="built-card__link" href="#">
+              <img class="built-card__img" src="img/project3.jpg" alt="">
+              <span class="built-card__footage">175 м<sup>2</sup></span>
+              <span class="built-card__size">9x9 м</span>
+              <span class="built-card__address">Агалатово</span>
+            </a>
+          </figure>
+        </li>
+        <li class="built-section__item">
+          <figure class="built-section__card built-card">
+            <figcaption class="built-card__title">Каркасный дом</figcaption>
+            <a class="built-card__link" href="#">
+              <img class="built-card__img" src="img/project4.jpg" alt="">
+              <span class="built-card__footage">200 м<sup>2</sup></span>
+              <span class="built-card__size">9x9 м</span>
+              <span class="built-card__address">Агалатово</span>
+            </a>
+          </figure>
+        </li>
+        <li class="built-section__item">
+          <figure class="built-section__card built-card">
+            <figcaption class="built-card__title">Каркасный дом</figcaption>
+            <a class="built-card__link" href="#">
+              <img class="built-card__img" src="img/project5.jpg" alt="">
+              <span class="built-card__footage">225 м<sup>2</sup></span>
+              <span class="built-card__size">9x9 м</span>
+              <span class="built-card__address">Агалатово</span>
+            </a>
+          </figure>
+        </li>
+        <li class="built-section__item">
+          <figure class="built-section__card built-card">
+            <figcaption class="built-card__title">Каркасный дом</figcaption>
+            <a class="built-card__link" href="#">
+              <img class="built-card__img" src="img/project6.jpg" alt="">
+              <span class="built-card__footage">250 м<sup>2</sup></span>
+              <span class="built-card__size">9x9 м</span>
+              <span class="built-card__address">Агалатово</span>
+            </a>
+          </figure>
+        </li>
+      </ul>
+      <a class="build-section__link button button--build" href="">
+        Построенные дома
+      </a>
+    </section>
+    <section class="main-page__section stages-section">
+      <h2 class="stages-section__title">Этапы работ</h2>
+      <ol class="stages-section__list">
+        <li class="stages-section__item">
+          <h3 class="stages-section__item-title stages-section__item-title--1">
+            Согласовываем проект
+          </h3>
+          <p class="stages-section__item-description">
+            <a class="stages-section__item-request" href="#">
+              Оставьте нам заявку
+            </a>
+            , или звоните
+            <a  class="stages-section__item-tel" href="tel:+79117031903">8(911) 703-19-03</a>
+          </p>
+        </li>
+        <li class="stages-section__item">
+          <h3 class="stages-section__item-title stages-section__item-title--2">
+            Доставляем материалы
+          </h3>
+          <p class="stages-section__item-description">
+            Доставка и выгрузка материалов в назначенный день.
+          </p>
+        </li>
+        <li class="stages-section__item">
+          <h3 class="stages-section__item-title stages-section__item-title--3">
+            Подписываем договор
+          </h3>
+          <p class="stages-section__item-description">
+            Прораб предоставит вам оригинал договора подряда для подписания. Вы оплачиваете 70% стоимости объекта.
+          </p>
+        </li>
+        <li class="stages-section__item">
+          <h3 class="stages-section__item-title stages-section__item-title--4">
+            Строим объект
+          </h3>
+          <p class="stages-section__item-description">
+            Производим полный цикл строительных и отделочных работ.
+          </p>
+        </li>
+        <li class="stages-section__item">
+          <h3 class="stages-section__item-title stages-section__item-title--5">
+            Сдаем объект
+          </h3>
+          <p class="stages-section__item-description">
+            Вы принимаете работу и подписываете акт сдачи-приемки.
+          </p>
+        </li>
+        <li class="stages-section__item">
+          <h3 class="stages-section__item-title stages-section__item-title--6">
+            Даем гарантии
+          </h3>
+          <p class="stages-section__item-description">
+            Даем официальную гарантию на все виды предоставленных услуг.
+          </p>
+        </li>
+      </ol>
+    </section>
+    <section class="main-page__section video-section">
+      <h2 class="video-section__title">Вы можете наблюдать за строительством Вашего дома 24/7</h2>
+      <iframe class="video-section__video" src="https://www.youtube.com/embed/XQ6ysW6F77E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <a class="video-section__link button button--youtube" href="https://www.youtube.com/channel/UC_11q6GV-rQLWGg3HYWw2dw">
+        Посмотреть все видео
+      </a>
+    </section>
+    <section class="main-page__section feedback-section">
+      <h2 class="feedback-section__title">Нужна консультация?</h2>
+      <p class="feedback-section__description">
+        Подробно расскажем о наших услугах, видах работ и типовых проектах, рассчитаем стоимость и подготовим индивидуальное предложение!
+      </p>
+      <a class="feedback-section__button button button--ask" href="#">
+        Задать вопрос
+      </a>
+    </section>
+    <section class="main-page__section reviews-section">
+      <h2 class="reviews-section__title">
+        Отзывы клиентов
+      </h2>
+      <p class="reviews-section__description">
+        Если не хочется далеко ехать - почитайте отзывы.
+        Мы честно поработали и получили заслуженные благодарности хороших людей - поэтому нам приятно похвастаться. Совсем чуть-чуть.
+      </p>
+      <a class="reviews-section__link reviews-section__link--all-reviews button button--all-reviews" href="#">
+        Смотреть все отзывы (3)
+      </a>
+      <div class="reviews-section__block">
+        <div class="reviews-section__container">
+          <div class="reviews-section__item review">
+            <h3 class="review__title visually-hidden">Отзыв №1</h3>
+            <img class="review__avatar" src="img/112x112-noavatar.jpg" alt="avatar">
+            <p class="review__autor">
+              Свитковский Влад
+            </p>
+            <p class="review__date">
+              <time datetime="2020-08-05">
+                5 августа 2020г.
+              </time>
+            </p>
+            <p class="review__address">
+              <b>Адрес: </b>г. Санкт-Петербург
+            </p>
+            <p  class="review__content">
+              Все понравилось.
+            </p>
+          </div>
+        </div>
+        <div class="reviews-section__container">
+          <div class="reviews-section__item review">
+            <h3 class="review__title visually-hidden">Отзыв №1</h3>
+            <img class="review__avatar" src="img/112x112-noavatar.jpg" alt="avatar">
+            <p class="review__autor">
+              Свитковский Влад
+            </p>
+            <p class="review__date">
+              <time datetime="2020-08-05">
+                5 августа 2020г.
+              </time>
+            </p>
+            <p class="review__address">
+              <b>Адрес: </b>г. Санкт-Петербург
+            </p>
+            <p  class="review__content">
+              Все понравилось.
+            </p>
+          </div>
+        </div>
+        <div class="reviews-section__container">
+          <div class="reviews-section__item review">
+            <h3 class="review__title visually-hidden">Отзыв №1</h3>
+            <img class="review__avatar" src="img/112x112-noavatar.jpg" alt="avatar">
+            <p class="review__autor">
+              Свитковский Влад
+            </p>
+            <p class="review__date">
+              <time datetime="2020-08-05">
+                5 августа 2020г.
+              </time>
+            </p>
+            <p class="review__address">
+              <b>Адрес: </b>г. Санкт-Петербург
+            </p>
+            <p  class="review__content">
+              Все понравилось.
+            </p>
+          </div>
+        </div>
+        <div class="reviews-section__container">
+          <div class="reviews-section__item review">
+            <h3 class="review__title visually-hidden">Отзыв №1</h3>
+            <img class="review__avatar" src="img/112x112-noavatar.jpg" alt="avatar">
+            <p class="review__autor">
+              Свитковский Влад
+            </p>
+            <p class="review__date">
+              <time datetime="2020-08-05">
+                5 августа 2020г.
+              </time>
+            </p>
+            <p class="review__address">
+              <b>Адрес: </b>г. Санкт-Петербург
+            </p>
+            <p  class="review__content">
+              Все понравилось.
+            </p>
+          </div>
+        </div>
+      </div>
+       <a class="reviews-section__link reviews-section__link--add-review button button--add-review" href="#">
+        Оставить отзыв
+      </a>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <ul class="page-footer__site-list site-list site-list--footer">
+      <li class="site-list__item site-list__item--footer">
+        <a class="site-list__link site-list__link--footer" href="projects.html">Проекты</a>
+      </li>
+      <li class="site-list__item site-list__item--footer">
+        <a class="site-list__link site-list__link--footer" href="reviews.html">Построенные дома</a>
+      </li>
+      <li class="site-list__item site-list__item--footer">
+        <a class="site-list__link site-list__link--footer" href="prices.html">Цены</a>
+      </li>
+      <li class="site-list__item site-list__item--footer">
+        <a class="site-list__link site-list__link--footer" href="contract.html">Образец договора</a>
+      </li>
+      <li class="site-list__item site-list__item--footer">
+        <a class="site-list__link site-list__link--footer" href="reviews.html">Отзывы</a>
+      </li>
+      <li class="site-list__item site-list__item--footer">
+        <a class="site-list__link site-list__link--footer" href="reviews.html">О компании</a>
+      </li>
+      <li class="site-list__item site-list__item--footer">
+        <a class="site-list__link site-list__link--footer" href="contacts.html">Контакты</a>
+      </li>
+    </ul>
+    <ul class="page-footer__social social__list">
+      <li class="social__item">
+        <a class="social__link social__link--vkontakte" href="#" aria-label="Мы в Вконтакте">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+            <path d="M393 566c-135 0-208-143-276-285-10-21 6-23 16-23l81-1c12 0 17 9 20 15 13 31 66 142 92 129 18-9 15-107 4-122-7-9-20-12-26-13-5-1 3-11 13-16 18-9 87-9 111-3 28 7 19 32 19 95 0 20-4 50 11 58 24 12 81-101 91-131 3-8 9-11 19-11h85c20 0 27 1 30 8 5 12-9 40-44 87-57 77-65 70-17 114 46 42 55 63 57 66 14 28-11 34-21 34h-76c-9 0-21 0-38-11-29-19-55-70-76-64-17 5-20 34-21 53-1 16-10 21-20 21h-34z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--instagram" href="#" aria-label="Мы в Инстаграме">
+          <svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+            <path d="M150 400c0-119 0-166 42-208s88-42 208-42 166 0 208 42 42 89 42 208 0 166-42 208-88 42-208 42-166 0-208-42-42-89-42-208zm455 0c0-114 0-148-29-176-29-29-62-29-176-29s-148 0-176 29c-29 29-29 62-29 176s0 148 29 176c29 29 62 29 176 29s148 0 176-29c29-29 29-62 29-176zM400 272a128 128 0 1 1 0 256 128 128 0 0 1 0-256zm0 211c46 0 83-37 83-83s-37-83-83-83-83 37-83 83 37 83 83 83zm163-216c0 16-13 30-30 30-16 0-30-14-30-30 0-17 14-30 30-30 17 0 30 13 30 30z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--facebook" href="#" aria-label="Мы в Фейсбуке">
+          <svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+            <path d="M445 643h-90V419h-75v-87h75v-64q0-55 32-86 30-29 80-29 28 0 67 3v78h-47q-42 0-42 38v60h86l-11 87h-75v224z"/>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--youtube" href="#" aria-label="Мы в youtube">
+          <svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+            <path d="M400 224c144 0 201 2 224 25 17 17 26 52.125 26 151s-9 134-26 151c-23 23-80 25-224 25s-201-2-224-25c-17-17-26-52.125-26-151s9-134 26-151c23-23 80-25 224-25zm-52 100v141l135-70z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <ul class="page-footer__contacts-list">
+      <li class="page-footer__contacts-item">
+        <a class="page-footer__contacts-link contacts-link--tel" href="tel:+79117031903">
+          +7 (911) 703-19-03
+        </a>
+        <a class="page-footer__contacts-link contacts-link--mail" href="mailto:sweet198@mail.ru">sweet198@mail.ru
+        </a>
+      </li>
+      <li class="page-footer__contacts-item">
+        <a class="page-footer__contacts-link contacts-link--address" href="contacts.html">
+          Санкт-Петербург, ул. Карпинского, д.38, к.3, кв. 76
+        </a>
+      </li>
+      <li class="page-footer__contacts-item">
+        <a class="page-footer__contacts-link button button--call" href="#">
+          Заказать звонок
+        </a>
+      </li>
+    </ul>
+    <div class="page-footer__copyright copyright">
+      <p class="copyright__description">
+        2005-2019 © Официальный сайт компании «i Am Dom» по строительству каркасных домов под ключ.
+        Все права защищены и охраняются законом РФ об авторском праве. Использование фотографий и текстов с сайта допускается только с письменного разрешения.
+      </p>
+    </div>
+  </footer>
+  <section class="modal modal--feedback-ask visually-hidden">
+      <h2 class="modal__title">Задать вопрос</h2>
+      <p class="modal__description">
+        Менеджеры компании с радостью ответят на ваши вопросы и произведут расчет стоимости услуг и подготовят индивидуальное коммерческое предложение.
+      </p>
+      <form class="modal__form feedback-form feedback-form--ask" action="post.php" method="post">
+        <ul class="feedback-form__list">
+          <li class="feedback-form__item feedback-name">
+            <label class="feedback-name__label visually-hidden" for="feedback-name1">Ваше имя:</label>
+            <input class="feedback-name__input" id="feedback-name1" type="text" name="name" value="" placeholder="Ваше имя">
+          </li>
+          <li class="feedback-form__item feedback-phone">
+            <label class="feedback-phone__label visually-hidden" for="feedback-phone1">Телефон:</label>
+            <input class="feedback-phone__input" id="feedback-phone1" type="tel" name="phone" value="" placeholder="Телефон" required>
+          </li>
+          <li class="feedback-form__item feedback-mail">
+            <label class="feedback-mail__label visually-hidden" for="feedback-mail1">Почта:</label>
+            <input class="feedback-mail__input" id="feedback-mail1" type="email" name="mail" value="" placeholder="Почта">
+          </li>
+           <li class="feedback-form__item feedback-goods">
+            <label class="feedback-goods__label visually-hidden" for="feedback-goods1">Интересующий товар/услуга</label>
+            <input class="feedback-goods__input" id="feedback-goods1" type="text" name="goods" value="" placeholder="Интересующий товар/услуга:">
+          </li>
+          <li  class="feedback-form__item feedback-comment">
+            <label class="feedback-comment__label" for="feedback-comment1">Напишите вопрос:</label>
+            <textarea name="comment" id="feedback-comment1" rows="5" required="required"></textarea>
+          </li>
+        </ul>
+        <button class="button button--submit feedback-form__button feedback-form__button--submit" type="submit">Отправить</button>
+      </form>
+      <button class="button button--close feedback-form__button" type="button">Закрыть</button>
+    </section>
+    <section class="modal modal--feedback-call visually-hidden">
+      <h2 class="modal__title">Обратный звонок</h2>
+      <p class="modal__description">
+        Представьтесь, мы вам перезвоним.
+      </p>
+      <form class="modal__form feedback-form feedback-form--call" action="post.php" method="post">
+        <ul class="feedback-form__list">
+          <li class="feedback-form__item feedback-name">
+            <label class="feedback-name__label" for="feedback-name2">Ваше имя:</label>
+            <input class="feedback-name__input" id="feedback-name2" type="text" name="name" value="" placeholder="Как к Вам обращаться:">
+          </li>
+          <li class="feedback-form__item feedback-phone">
+            <label class="feedback-phone__label" for="feedback-phone2">Телефон:</label>
+            <input class="feedback-phone__input" id="feedback-phone2" type="tel" name="phone" value="" placeholder="Введите Ваш телефон:">
+          </li>
+        </ul>
+        <button class="button button--submit feedback-form__button--submit" type="submit">Отправить</button>
+      </form>
+      <button class="button button--close feedback-form__button" type="button">Закрыть</button>
+    </section>
+  <section class="modal modal--map visually-hidden">
+        <h2 class="modal__title">Карта</h2>
+        <iframe class="modal__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A573d84ff7b066f2623753f6df997b1c54b61f6c930414ef008eb354d8daa6994&amp;source=constructor" width="100%" height="390" frameborder="0"></iframe>
+        <button class="button button--close modal--map__button" type="button">Закрыть</button>
+    </section>
+    <section class="modal modal--feedback-review visually-hidden">
+      <h2 class="modal__title">Оставить отзыв</h2>
+      <p class="modal__description">После модерации отзыв будет размещен на сайте</p>
+      <form class="modal__form feedback-form feedback-form--review" action="post.php" method="post" enctype="multipart/form-data">
+        <ul class="feedback-form__list">
+          <li class="feedback-form__item feedback-name">
+            <label class="feedback-name__label visually-hidden" for="feedback-name3">Ваше имя:</label>
+            <input class="feedback-name__input" id="feedback-name3" type="text" name="name" value="" placeholder="Ваше имя">
+          </li>
+          <li class="feedback-form__item feedback-mail">
+            <label class="feedback-mail__label visually-hidden" for="feedback-mail3">Почта:</label>
+            <input class="feedback-mail__input" id="feedback-mail3" type="email" name="mail" value="" placeholder="Почта">
+          </li>
+          <li class="feedback-form__item feedback-file">
+            <label class="feedback-file__label visually-hidden" for="feedback-file">Прикрепите файл:</label>
+            <input class="feedback-file__input" id="feedback-file" type="file" name="file">
+          </li>
+          <li  class="feedback-form__item feedback-comment">
+            <label class="feedback-comment__label" for="feedback-comment3">Напишите отзыв:</label>
+            <textarea name="comment" id="feedback-comment3" rows="5" required="required"></textarea>
+          </li>
+        </ul>
+        <button class="button button--submit feedback-form__button feedback-form__button--submit" type="submit">Отправить</button>
+      </form>
+      <button class="button button--close feedback-form__button" type="button">Закрыть</button>
+    </section>
+    <div class="modal-overlay visually-hidden"></div>
+  <script src="js/main.min.js"></script>
+</body>
+</html>
